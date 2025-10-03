@@ -94,7 +94,7 @@
 				<h2> Kangqi "Amos" Zhang </h2>
 				Email: <a href="mailto:zhkangqi@umich.edu">zhkangqi@umich.edu</a><br>
 				<a href="./cv.pdf"> CV </a> &
-				<a href="https://scholar.google.com/citations?user=iyVHKkcAAAAJ&hl=en" target="_blank"> Google Scholar </a>
+				<a href="https://scholar.google.com/citations?hl=en&user=WIKj0BAAAAAJ" target="_blank"> Google Scholar </a>
 				& <a href="https://github.com/heroarmor" target="_blank"> GitHub </a>
 				& <a href="https://www.linkedin.com/in/kangqi-zhang-491b5b293/" target="_blank"> Linkedin </a>
 
@@ -108,7 +108,7 @@
         with a focus on <b>chiplet-based high-performance computing, AI infrastructures, and ML systems</b>.
         <div class="small-div"></div>
         <div style="background-color: #f8f9fa; padding: 10px; border-left: 4px solid #0071bc; margin-top: 15px;">
-          <b>🎓 Looking for PhD Opportunities!</b> I am actively seeking PhD positions in computer architecture and ML systems. Please feel free to <a href="mailto:zhkangqi@umich.edu">reach out</a> if you have any opportunities or would like to discuss potential collaborations.
+          <b>🎓 Looking for PhD Opportunities!</b> I am actively seeking PhD positions in computer architecture and systems for HPC, AI, and ML. Please feel free to <a href="mailto:zhkangqi@umich.edu">reach out</a> if you have any opportunities or would like to discuss potential collaborations.
         </div>
         <div class="small-div"></div>
       </div>
@@ -130,6 +130,7 @@
           <p class="edu-sub">College of Engineering</p>
           <p class="edu-school"><b>University of Michigan</b>
 		<div>GPA: 4.0/4.0</div>
+
         </div>
         <div class="col-md-2 col-12 edu-time">
           2024 - 2026
@@ -191,6 +192,58 @@
     .edu-time {
       text-align: left;
       margin-top: 0.5rem;
+    }
+  }
+  
+  /* ===== Coursework section ===== */
+  .coursework-container {
+    margin-top: 1rem;
+  }
+  
+  .coursework-category {
+    margin-bottom: 2rem;
+  }
+  
+  .coursework-category h5 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 0.3rem;
+  }
+  
+  .graduate-note {
+    font-size: 0.75rem;
+    color: #0071bc;
+    font-weight: 400;
+    margin-left: 0.5rem;
+  }
+  
+  .coursework-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+  
+  .coursework-item {
+    color: #000;
+    font-size: 0.9rem;
+    padding: 0.2rem 0;
+    white-space: nowrap;
+  }
+  
+  .coursework-item.graduate {
+    color: #0071bc;
+  }
+  
+  @media (max-width: 767.98px) {
+    .coursework-items {
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .coursework-item {
+      white-space: normal;
+      font-size: 0.85rem;
     }
   }
 </style>
@@ -389,6 +442,25 @@
       </div>
     </li>
 
+    <!-- EECS 570 -->
+    <li class="row align-items-start" style="margin-bottom:2rem;">
+      <div class="col-md-3 col-12">
+        <b>EECS 570</b><br>
+        Parallel Global Router for VLSI
+      </div>
+      <div class="col-md-7 col-12">
+        <ul>
+          <li>Advisor: <a href="https://gamma.app/docs/Satish-Narayanasamy-1bc74e8e413szqa?mode=doc">Satish Narayanasamy</a></li>
+          <li>Developing a parallelized global router for VLSI designs using CPU and GPU acceleration.</li>
+          <li>Implementing Steiner tree construction, maze routing, and 3-bend routing algorithms with performance optimization.</li>
+          <li>Evaluating on ISPD benchmark circuits for runtime scalability and routing quality metrics.</li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-12 edu-time">
+        Ongoing
+      </div>
+    </li>
+
     <!-- EECS 573 -->
     <li class="row align-items-start" style="margin-bottom:2rem;">
       <div class="col-md-3 col-12">
@@ -403,7 +475,7 @@
         </ul>
       </div>
       <div class="col-md-2 col-12 edu-time">
-        2025/09 - Present
+         Ongoing
       </div>
     </li>
 
@@ -421,11 +493,56 @@
         </ul>
       </div>
       <div class="col-md-2 col-12 edu-time">
-        <!-- 时间未知可补 -->
+        2025/03 - 2025/04
       </div>
     </li>
     
   </ul>
+</div>
+
+
+<div class="container">
+  <h3> Coursework <span class="graduate-note">(blue = graduate standing)</span></h3>
+  <div class="coursework-container">
+    <div class="coursework-category">
+      <h5>Computer Architecture & Systems</h5>
+      <div class="coursework-items">
+        <span class="coursework-item">EECS 470 - Computer Architecture</span>
+        <span class="coursework-item graduate">EECS 570 - Parallel Computer Architecture</span>
+        <span class="coursework-item graduate">EECS 573 - Microarchitecture</span>
+        <span class="coursework-item">EECS 482 - Operating Systems</span>
+        <span class="coursework-item graduate">CSE 585 - Scalable Systems for GenAI</span>
+      </div>
+    </div>
+    
+    <div class="coursework-category">
+      <h5>Programming & Algorithms</h5>
+      <div class="coursework-items">
+        <span class="coursework-item">EECS 471 - Parallel GPU Programming</span>
+        <span class="coursework-item">EECS 281 - Data Structures and Algorithms</span>
+        <span class="coursework-item">EECS 487 - Intro to (next semester)</span>
+      </div>
+    </div>
+    
+    <div class="coursework-category">
+      <h5>Hardware & Circuit Design</h5>
+      <div class="coursework-items">
+        <span class="coursework-item">EECS 312 - Intro to Digital Design</span>
+        <span class="coursework-item">EECS 427 - Digital Integrated Circuit (next semester)</span>
+      </div>
+    </div>
+    
+    <div class="coursework-category">
+      <h5>Mechanical Engineering</h5>
+      <div class="coursework-items">
+        <span class="coursework-item">Aerodynamics</span>
+        <span class="coursework-item">Modeling, Analysis and Control of Dynamic Systems</span>
+        <span class="coursework-item">Design & Manufacturing</span>
+        <span class="coursework-item">Dynamics</span>
+        <span class="coursework-item">Thermodynamics</span>
+      </div>
+    </div>
+  </div>
 </div>
 
 
