@@ -104,11 +104,11 @@
         <a href="https://www.ji.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a> in Mechanical Engineering, currently working in
         <a href="https://crucible.eecs.umich.edu/" target="_blank">Crucible Computing Group</a>.<br><br>
 
-        My research lies at the intersection of <b>computer architecture and machine learning systems</b>, 
+        My research lies at the intersection of <b>computer architecture, EDA and machine learning systems</b>, 
         with a focus on <b>chiplet-based high-performance computing, AI infrastructures, and ML systems</b>.
         <div class="small-div"></div>
         <div style="background-color: #f8f9fa; padding: 10px; border-left: 4px solid #0071bc; margin-top: 15px;">
-          <b>🎓 Looking for PhD Opportunities!</b> I am actively seeking PhD positions in computer architecture and systems for HPC, AI, and ML. Please feel free to <a href="mailto:zhkangqi@umich.edu">reach out</a> if you have any opportunities or would like to discuss potential collaborations.
+          <b>🎓 Looking for PhD Opportunities!</b> I am actively seeking PhD positions in computer architecture, EDA and systems for HPC, AI, and ML. Please feel free to <a href="mailto:zhkangqi@umich.edu">reach out</a> if you have any opportunities or would like to discuss potential collaborations.
         </div>
         <div class="small-div"></div>
       </div>
@@ -258,7 +258,7 @@
         • Summer Undergraduate Research in Engineering (SURE) Stipend, University of Michigan
       </div>
       <div class="col-md-2 col-3 edu-time">
-        2025/05
+        05/2025
       </div>
     </li>
 
@@ -268,7 +268,7 @@
         • Dean's Honor List at College of Engineering, University of Michigan
       </div>
       <div class="col-md-2 col-3 edu-time">
-        2024/12, 2025/05
+        12/2024, 05/2025
       </div>
     </li>
   </ul>
@@ -289,12 +289,31 @@
         <ul>
           <li>Advisor: <a href="https://nbleier.com/">Nathaniel Bleier</a></li>
           <li>Developed fast turn-addition algorithms and baselines for arbitrary topologies.</li>
-          <li>Applied Deep Q-Learning to learn optimal turn sets under different traffic patterns.</li>
+          <li>Applied Deep Q-Learning with GNN to learn optimal turn sets under different traffic patterns.</li>
           <li>Evaluated with gem5 Garnet and PARSEC workloads; demonstrated robust latency reduction and scalability.</li>
         </ul>
       </div>
       <div class="col-md-2 col-12 edu-time">
-        2024/09 - Present
+        09/2024 - 11/2025
+      </div>
+    </li>
+
+    <!-- Double-P -->
+    <li class="row align-items-start" style="margin-bottom:2rem;">
+      <div class="col-md-3 col-12">
+        <b>Double-P: Hierarchical Top-P Sparse Attention for Long-Context LLMs</b><br>
+      </div>
+      <div class="col-md-7 col-12">
+        <ul>
+          <li>Advisors: <a href="https://cseweb.ucsd.edu/~jzhao/">Jishen Zhao</a>,
+              <a href="https://zhijianliu.com/">Zhijian Liu</a></li>
+          <li>Proposed a hierarchical sparse attention framework that jointly optimizes top-p accuracy, selection overhead, and sparse attention cost.</li>
+          <li>Performed coarse-grained top-p estimation at the cluster level using size-weighted centroids, then adaptively refined computation through a second top-p stage.</li>
+          <li>Achieved near-zero accuracy drop with up to 1.8× attention computation reduction and 1.3× end-to-end decoding speedup over state-of-the-art methods.</li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-12 edu-time">
+        05/2025 - 10/2025
       </div>
     </li>
 
@@ -305,14 +324,14 @@
       </div>
       <div class="col-md-7 col-12">
         <ul>
-          <li>Advisors: <a href="https://cseweb.ucsd.edu/~jzhao/">Jishen Zhao</a>, 
+          <li>Advisors: <a href="https://cseweb.ucsd.edu/~jzhao/">Jishen Zhao</a>,
               <a href="https://zhijianliu.com/">Zhijian Liu</a></li>
           <li>Proposed a CPU-GPU heterogeneous ANN pipeline for efficient KV-cache retrieval.</li>
           <li>Exploited inter-layer query similarity via cross-layer cluster reuse, forming a cross-layer search pipeline.</li>
         </ul>
       </div>
       <div class="col-md-2 col-12 edu-time">
-        2025/05 - Present
+        05/2025 - 10/2025
       </div>
     </li>
 
@@ -329,7 +348,7 @@
         </ul>
       </div>
       <div class="col-md-2 col-12 edu-time">
-        2023/02 - 2024/02
+        02/2023 - 02/2024
       </div>
     </li>
     
@@ -371,6 +390,40 @@
   <h3> Publications </h3>
   <ul class="list-unstyled">
 
+    <!-- TurnRL -->
+    <li class="row align-items-start" style="margin-bottom:2rem;">
+      <div class="col-md-3 col-12">
+        <b>TurnRL: RL-Driven Turn-Restricted Adaptive Routing for Chiplet-Based Systems</b><br>
+      </div>
+      <div class="col-md-7 col-12">
+        <ul>
+          <li><b>K. Zhang</b>*, J. Wang*, R. Dreslinski, N. Bleier.</li>
+          <li><i>TurnRL: Reinforcement-Learning Driven Turn-Restricted Adaptive Routing for Chiplet-Based System.</i></li>
+          <li>DAC 2026, under review.</li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-12 edu-time">
+        2026
+      </div>
+    </li>
+
+    <!-- Double-P -->
+    <li class="row align-items-start" style="margin-bottom:2rem;">
+      <div class="col-md-3 col-12">
+        <b>Double-P: Hierarchical Top-P Sparse Attention for Long-Context LLMs</b><br>
+      </div>
+      <div class="col-md-7 col-12">
+        <ul>
+          <li>W. Ni, <b>K. Zhang</b>, Z. Yu, O. Nelson, M. Lee, H. Cai, F. Porikli, J. Kim, Z. Liu, J. Zhao.</li>
+          <li><i>Double-P: Hierarchical Top-P Sparse Attention for Long-Context LLMs.</i></li>
+          <li>ICML 2026, Under review.</li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-12 edu-time">
+        2026
+      </div>
+    </li>
+
     <!-- Mozart -->
     <li class="row align-items-start" style="margin-bottom:2rem;">
       <div class="col-md-3 col-12">
@@ -408,7 +461,7 @@
         </ul>
       </div>
       <div class="col-md-2 col-12 edu-time">
-        2024/10
+        10/2024
       </div>
     </li>
 
@@ -438,11 +491,31 @@
         </ul>
       </div>
       <div class="col-md-2 col-12 edu-time">
-        2025/02 - 2025/05
+        02/2025 - 05/2025
       </div>
     </li>
 
-    <!-- EECS 570 -->
+    <!-- EECS 570 PA2 -->
+    <li class="row align-items-start" style="margin-bottom:2rem;">
+      <div class="col-md-3 col-12">
+        <b>EECS 570</b><br>
+        Directory-Based MSI/MESI Cache Coherence Protocol
+      </div>
+      <div class="col-md-7 col-12">
+        <ul>
+          <li>Advisor: <a href="https://gamma.app/docs/Satish-Narayanasamy-1bc74e8e413szqa?mode=doc">Satish Narayanasamy</a></li>
+          <li>Designed latency-optimized three-hop MSI and MESI protocols with transient states for pending data transfers and acknowledgments.</li>
+          <li>Introduced Exclusive (E) state enabling silent upgrades to Modified without network traffic.</li>
+          <li>Implemented out-of-order message receive support for robust handling of race conditions.</li>
+          <li>Verified correctness using Murphi model checking with coherence, mutual exclusion, and value consistency invariants.</li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-12 edu-time">
+        11/2025
+      </div>
+    </li>
+
+    <!-- EECS 570 Final -->
     <li class="row align-items-start" style="margin-bottom:2rem;">
       <div class="col-md-3 col-12">
         <b>EECS 570</b><br>
@@ -493,7 +566,7 @@
         </ul>
       </div>
       <div class="col-md-2 col-12 edu-time">
-        2025/03 - 2025/04
+        03/2025 - 04/2025
       </div>
     </li>
     
@@ -509,6 +582,7 @@
       <div class="coursework-items">
         <span class="coursework-item">EECS 470 - Computer Architecture</span>
         <span class="coursework-item graduate">EECS 570 - Parallel Computer Architecture</span>
+        <span class="coursework-item graduate">EECS 598 - Computer Architecture of Post Moore Era</span>
         <span class="coursework-item graduate">EECS 573 - Microarchitecture</span>
         <span class="coursework-item">EECS 482 - Operating Systems</span>
         <span class="coursework-item graduate">CSE 585 - Scalable Systems for GenAI</span>
@@ -520,7 +594,6 @@
       <div class="coursework-items">
         <span class="coursework-item">EECS 471 - Parallel GPU Programming</span>
         <span class="coursework-item">EECS 281 - Data Structures and Algorithms</span>
-        <span class="coursework-item">EECS 487 - Intro to (next semester)</span>
       </div>
     </div>
     
