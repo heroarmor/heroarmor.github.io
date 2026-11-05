@@ -10,7 +10,7 @@ importance: 2
 category: research
 ---
 
-**Advisors:** [Prof. Nathaniel Bleier](https://nbleier.com/) and [Prof. Ronald Dreslinski](https://web.eecs.umich.edu/~rdreslin/), University of Michigan · 2024/09 – 2025/11
+**Advisors:** [Prof. Nathaniel Bleier](https://eecs.engin.umich.edu/people/bleier-nathaniel/) and [Prof. Ronald Dreslinski](https://web.eecs.umich.edu/~rdreslin/), University of Michigan · 2024/09 – 2025/11
 
 - Developed fast turn-addition algorithms and baselines for arbitrary topologies and traffic patterns.
 - Applied Deep Q-Learning with a GNN to learn optimal turn sets under different traffic patterns, evaluated with gem5 Garnet and PARSEC workloads.

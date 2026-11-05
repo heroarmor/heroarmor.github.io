@@ -1,7 +1,7 @@
 # Co-author links on the publications page. Keys are lowercase last names.
 "bleier":
   - firstname: ["Nathaniel", "N.", "Nathan"]
-    url: https://nbleier.com/
+    url: https://eecs.engin.umich.edu/people/bleier-nathaniel/
 
 "dreslinski":
   - firstname: ["Ronald", "R.", "Ron"]

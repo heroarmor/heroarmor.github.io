@@ -16,13 +16,16 @@ nav_order: 4
 ## Ausbildung
 
 **Purdue University**, West Lafayette, IN · 2026/08 – heute<br>
-Ph.D. in Electrical and Computer Engineering · Betreuer: Prof. Jinghan Sun
+Ph.D. in Electrical and Computer Engineering · Betreuer: [Prof. Jinghan Sun](https://my-henrys.github.io/)
 
 **University of Michigan**, Ann Arbor, MI · 2024/08 – 2026/04<br>
-B.S.E. in Computer Engineering, _Summa Cum Laude_, GPA 4,0/4,0 · Betreuer: Prof. Nathaniel Bleier
+B.S.E. in Computer Engineering, _Summa Cum Laude_, GPA 4,0/4,0 · Betreuer: [Prof. Nathaniel Bleier](https://eecs.engin.umich.edu/people/bleier-nathaniel/)
 
-**Shanghai Jiao Tong University**, Shanghai, China · 2022/08 – 2026/08<br>
+**Shanghai Jiao Tong University** (Global College), Shanghai, China · 2022/08 – 2026/08<br>
 B.S. in Maschinenbau, Kern-GPA 3,65/4,0
+
+**University of Auckland**, Auckland, Neuseeland · 2024/01 – 2024/02<br>
+Austauschstudent, Statistik, GPA 4,0/4,0
 
 ## Forschung
 
@@ -31,6 +34,7 @@ B.S. in Maschinenbau, Kern-GPA 3,65/4,0
 - **TurnRL** (ICCAD 2026, Erstautor) · 2024/09 – 2025/11: RL-gestütztes adaptives Routing mit Abbiegebeschränkungen für Chiplet-Systeme; bis zu 35,9 % höhere Sättigungs-Injektionsrate.
 - **Double-P** · 2025/09 – 2026/01: Hierarchische Top-p-Sparse-Attention für LLMs mit langem Kontext; bis zu 1,3× schnelleres End-to-End-Decoding.
 - **LLM-Inferenz mit ANN-Suche** · 2025/05 – 2025/10: Heterogene CPU-GPU-Pipeline zum Abruf des KV-Caches; bis zu 3× schnelleres Decoding gegenüber PQCache.
+- **3D-Multiphysik-Modellierung von Lithium-Ionen-Batterien** · 2023/02 – 2024/02: Wissenschaftliche Hilfskraft in der [Gruppe von Prof. Yanming Wang](https://sites.gc.sjtu.edu.cn/yanming-wang/), Shanghai Jiao Tong University; elektrochemisch-thermisch-mechanisches Zellmodell in COMSOL zur Vorhersage der Alterung.
 
 Details siehe [Projekte]({{ '/de/projects/' | relative_url }}) und [Publikationen]({{ '/de/publications/' | relative_url }}).
 

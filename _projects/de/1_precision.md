@@ -11,7 +11,7 @@ translations:
   de: /de/projects/precision/
 ---
 
-**Betreuer:** [Prof. Nathaniel Bleier](https://nbleier.com/), University of Michigan · 2026/01 – heute
+**Betreuer:** [Prof. Nathaniel Bleier](https://eecs.engin.umich.edu/people/bleier-nathaniel/), University of Michigan · 2026/01 – heute
 
 - Stochastisches Rechnen (SC) als dichten adaptiven Quantisierer neu gedacht: Die Präzision wird durch die Bitstromlänge statt durch einen festen Datenpfad bestimmt, und jede Multiplikation reduziert sich auf ein einzelnes AND/XNOR-Gatter.
 - Eine GPU-Bibliothek zur Emulation von SC-Matrixmultiplikationen im großen Maßstab sowie eine Mixed-Precision-Strategie pro Zeile ohne Nachtraining entwickelt, die mit INT-Quantisierung fester Breite konkurrenzfähig ist.

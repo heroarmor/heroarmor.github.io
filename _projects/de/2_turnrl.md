@@ -11,7 +11,7 @@ translations:
   de: /de/projects/turnrl/
 ---
 
-**Betreuer:** [Prof. Nathaniel Bleier](https://nbleier.com/) und [Prof. Ronald Dreslinski](https://web.eecs.umich.edu/~rdreslin/), University of Michigan · 2024/09 – 2025/11
+**Betreuer:** [Prof. Nathaniel Bleier](https://eecs.engin.umich.edu/people/bleier-nathaniel/) und [Prof. Ronald Dreslinski](https://web.eecs.umich.edu/~rdreslin/), University of Michigan · 2024/09 – 2025/11
 
 - Schnelle Algorithmen zum Hinzufügen erlaubter Abbiegungen (Turns) sowie Baselines für beliebige Topologien und Verkehrsmuster entwickelt.
 - Deep Q-Learning mit einem GNN eingesetzt, um optimale Turn-Mengen für unterschiedliche Verkehrsmuster zu lernen; Evaluierung mit gem5 Garnet und PARSEC-Workloads.

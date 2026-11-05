@@ -10,7 +10,7 @@ importance: 1
 category: research
 ---
 
-**Advisor:** [Prof. Nathaniel Bleier](https://nbleier.com/), University of Michigan · 2026/01 – present
+**Advisor:** [Prof. Nathaniel Bleier](https://eecs.engin.umich.edu/people/bleier-nathaniel/), University of Michigan · 2026/01 – present
 
 - Reframed stochastic computing (SC) as a dense adaptive quantizer whose precision is set by bit-stream length rather than a fixed datapath, reducing each multiplication to a single AND/XNOR gate.
 - Built a GPU library that emulates SC matrix multiplication at scale and a retraining-free per-row mixed-precision policy that stays competitive with fixed-format INT quantization across vision tasks.

@@ -40,13 +40,23 @@ cv:
 
       - institution: Shanghai Jiao Tong University
         location: Shanghai, China
-        url: https://www.ji.sjtu.edu.cn/
+        url: https://gc.sjtu.edu.cn/
         area: Mechanical Engineering
         studyType: B.S.
         start_date: 2022-08
         end_date: 2026-08
         highlights:
           - "Core GPA: 3.65/4.0"
+
+      - institution: University of Auckland
+        location: Auckland, New Zealand
+        url: https://www.auckland.ac.nz/
+        area: Statistics
+        studyType: Exchange Student
+        start_date: 2024-01
+        end_date: 2024-02
+        highlights:
+          - "GPA: 4.0/4.0"
 
     Projects:
       - name: "Precision As You Need: Stochastic Computing for Mixed-Precision Inference"
@@ -121,6 +131,16 @@ cv:
         position: Teaching Assistant
         start_date: 2024-09
         end_date: 2024-12
+
+      - company: Shanghai Jiao Tong University, Prof. Yanming Wang's group
+        position: Research Assistant (part-time)
+        url: https://sites.gc.sjtu.edu.cn/yanming-wang/
+        location: Shanghai, China
+        start_date: 2023-02
+        end_date: 2024-02
+        highlights:
+          - Built a 3D electrochemical-thermal-mechanical model of lithium-ion cells in COMSOL to predict battery aging and assess performance and longevity.
+          - Co-developed PyBatSim V1.0, a registered multi-physics simulation software for Li-ion cells.
 
     Awards:
       - title: Student Travel Grant, ICCAD 2026
