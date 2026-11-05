@@ -1,4 +1,8 @@
 ---
+lang: en
+translations:
+  en: /projects/
+  de: /de/projects/
 layout: page
 title: projects
 permalink: /projects/

@@ -1,4 +1,8 @@
 ---
+lang: en
+translations:
+  en: /projects/1_precision/
+  de: /de/projects/precision/
 layout: page
 title: Precision As You Need
 description: Stochastic computing for mixed-precision DNN inference and acceleration (NeurIPS 2026, HPCA 2027)

@@ -1,4 +1,8 @@
 ---
+lang: en
+translations:
+  en: /projects/3_chisel/
+  de: /de/projects/chisel/
 layout: page
 title: Chisel-Verilog Aligner
 description: Formally verified signal mapping from optimized Verilog back to Chisel source (undergraduate thesis)

@@ -1,4 +1,8 @@
 ---
+lang: en
+translations:
+  en: /cv/
+  de: /de/cv/
 layout: cv
 permalink: /cv/
 title: CV

@@ -1,4 +1,8 @@
 ---
+lang: en
+translations:
+  en: /projects/2_turnrl/
+  de: /de/projects/turnrl/
 layout: page
 title: TurnRL
 description: RL-driven turn-restricted adaptive routing for chiplet-based systems (ICCAD 2026)

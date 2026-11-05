@@ -1,4 +1,8 @@
 ---
+lang: en
+translations:
+  en: /
+  de: /de/
 layout: about
 title: about
 permalink: /

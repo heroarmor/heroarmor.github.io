@@ -1,4 +1,8 @@
 ---
+lang: en
+translations:
+  en: /projects/4_doublep/
+  de: /de/projects/doublep/
 layout: page
 title: Double-P
 description: Hierarchical top-p sparse attention for long-context LLMs

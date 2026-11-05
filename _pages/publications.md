@@ -1,4 +1,8 @@
 ---
+lang: en
+translations:
+  en: /publications/
+  de: /de/publications/
 layout: page
 permalink: /publications/
 title: publications
