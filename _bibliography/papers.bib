@@ -1,0 +1,58 @@
+---
+---
+
+@inproceedings{jin2027payn,
+  abbr      = {HPCA},
+  title     = {Precision As You Need: A Stochastic-Computing Mixture-of-Precision Neural Network Accelerator},
+  author    = {Jin*, Haoran and Lyu*, Barry and Zhang, Kangqi and Yang, Jirong and Walther, Soren and Postelnik, Jonathan and Ding, Qiuyi and Shin, Justin and Chiu, Cheng and Xiong, Aaron and Bleier, Nathaniel},
+  booktitle = {IEEE International Symposium on High-Performance Computer Architecture (HPCA)},
+  year      = {2027},
+  selected  = {true}
+}
+
+@inproceedings{jin2026precision,
+  abbr      = {NeurIPS},
+  title     = {Precision As You Need: Stochastic Computing Is a Dense Adaptive Quantizer},
+  author    = {Jin*, Haoran and Zhang*, Kangqi and Yang, Jirong and Lyu, Barry and Ding, Qiuyi and Gao, Ruijie and Bleier, Nathaniel},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026},
+  arxiv     = {2609.32922},
+  abstract  = {Matrix multiplications dominate the inference cost of modern transformer-based vision models, yet existing efficiency techniques such as post-training quantization and mixed-precision inference are largely limited to the small set of fixed-width formats (INT4, INT8, BF16, and FP16) supported by conventional accelerators. We revisit stochastic computing (SC) as a way to lift this constraint: viewed as a dense adaptive quantizer, SC controls precision by bit-stream length L rather than a fixed datapath, while each multiplication reduces to a single AND/XNOR gate. We build a GPU library that emulates SC matrix multiplication at scale, exposes stream lengths as first-class kernel arguments, and evaluates SC end-to-end on image classification, object detection and instance segmentation, class-conditional image generation, and visual world-model planning. On top of this substrate, we develop a dynamic per-row mixed-precision policy that assigns stream length per token or group at matched average budget, requires no retraining, and uses the same SC hardware across schedules. Across tasks, SC remains competitive with fixed-format INT quantization at matched bit budgets, while per-row mixed precision helps maintain accuracy at lower average stream lengths. These results provide software-level feasibility evidence that SC can serve as a dense-precision substrate for fine-grained mixed-precision inference on modern vision transformers.},
+  selected  = {true}
+}
+
+@inproceedings{zhang2026turnrl,
+  abbr      = {ICCAD},
+  title     = {TurnRL: Reinforcement-Learning Driven Turn-Restricted Adaptive Routing for Chiplet-Based System},
+  author    = {Zhang*, Kangqi and Wang*, J. and Dreslinski, Ronald and Bleier, Nathaniel},
+  booktitle = {IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},
+  year      = {2026},
+  selected  = {true}
+}
+
+@inproceedings{jin2026fengshui,
+  abbr      = {MICRO},
+  title     = {Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign},
+  author    = {Jin, Haoran and Yang, Jirong and Zhang, Zhiheng and Shin, Justin and Lyu, Barry and Zhang, Kangqi and Liu, Yunpeng and Bleier, Nathaniel},
+  booktitle = {IEEE/ACM International Symposium on Microarchitecture (MICRO)},
+  year      = {2026},
+  arxiv     = {2609.10970}
+}
+
+@article{ni2026doublep,
+  abbr      = {arXiv},
+  title     = {Double-P: Hierarchical Top-P Sparse Attention for Long-Context LLMs},
+  author    = {Ni, Wentao and Zhang, Kangqi and Yu, Zhongming and Nelson, O. and Lee, M. and Cai, H. and Porikli, F. and Kim, J. and Liu, Zhijian and Zhao, Jishen},
+  journal   = {arXiv preprint arXiv:2602.05191},
+  year      = {2026},
+  arxiv     = {2602.05191}
+}
+
+@article{sun2026ale,
+  abbr      = {arXiv},
+  title     = {Agents' Last Exam},
+  author    = {Sun, Yiyou and Han, Xinyang and {...} and Zhang, Kangqi and others},
+  journal   = {arXiv preprint arXiv:2606.05405},
+  year      = {2026},
+  arxiv     = {2606.05405}
+}

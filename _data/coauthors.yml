@@ -1,0 +1,20 @@
+# Co-author links on the publications page. Keys are lowercase last names.
+"bleier":
+  - firstname: ["Nathaniel", "N.", "Nathan"]
+    url: https://nbleier.com/
+
+"dreslinski":
+  - firstname: ["Ronald", "R.", "Ron"]
+    url: https://web.eecs.umich.edu/~rdreslin/
+
+"zhao":
+  - firstname: ["Jishen", "J."]
+    url: https://cseweb.ucsd.edu/~jzhao/
+
+"liu":
+  - firstname: ["Zhijian"]
+    url: https://zhijianliu.com/
+
+"jin":
+  - firstname: ["Haoran", "H."]
+    url: https://allenjin123.github.io/

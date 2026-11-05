@@ -1,0 +1,15 @@
+# Badge colors for the "abbr" field of entries in _bibliography/papers.bib.
+"HPCA":
+  color: "#1f4e79"
+
+"MICRO":
+  color: "#2e7d32"
+
+"ICCAD":
+  color: "#00695c"
+
+"NeurIPS":
+  color: "#6a1b9a"
+
+"arXiv":
+  color: "#b31b1b"
