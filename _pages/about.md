@@ -13,11 +13,12 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Purdue University</p>
-    <p>West Lafayette, IN</p>
+    <p>Shot in Chicago, IL</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+# Selected papers and social icons are written out at the end of this page instead of by the
+# layout, so the visitor map can sit below them (same structure as _pages/de/about.md).
+selected_papers: false
+social: false
 
 announcements:
   enabled: false # set to true to show items from the `_news` folder
@@ -31,3 +32,22 @@ latest_posts:
 I am a first-year Ph.D. student in the [Elmore Family School of Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at Purdue University, advised by [Prof. Jinghan Sun](https://my-henrys.github.io/). My research lies at the intersection of **computer architecture**, **EDA**, and **machine learning systems**.
 
 Before Purdue, I received my B.S.E. in Computer Engineering (_Summa Cum Laude_) from the [University of Michigan](https://ece.engin.umich.edu/), where I worked with [Prof. Nathaniel Bleier](https://eecs.engin.umich.edu/people/bleier-nathaniel/) in the [Crucible Computing Group](https://crucible.eecs.umich.edu/) on stochastic computing for mixed-precision DNN inference, chiplet-based systems, and agile hardware design. I also worked with [Prof. Jishen Zhao](https://cseweb.ucsd.edu/~jzhao/) and [Prof. Zhijian Liu](https://zhijianliu.com/) on efficient long-context LLM inference. In addition, I hold a B.S. in Mechanical Engineering from [Shanghai Jiao Tong University](https://gc.sjtu.edu.cn/) (Global College), where I worked as a research assistant in [Prof. Yanming Wang's group](https://sites.gc.sjtu.edu.cn/yanming-wang/) on 3D multi-physics modeling of lithium-ion batteries. I also studied at the [University of Auckland](https://www.auckland.ac.nz/) as an exchange student.
+
+<div style="clear: both;"></div>
+
+<h2>
+  <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+</h2>
+
+<div class="publications">
+
+{% bibliography --group_by none --query @*[selected=true]* %}
+
+</div>
+
+<div class="social">
+  <div class="contact-icons">{% social_links %}</div>
+  <div class="contact-note">{{ site.contact_note }}</div>
+</div>
+
+{% include visitor_map.liquid %}

@@ -13,8 +13,7 @@ profile:
   image: prof_pic.png
   image_circular: false
   more_info: >
-    <p>Purdue University</p>
-    <p>West Lafayette, IN, USA</p>
+    <p>Aufgenommen in Chicago, IL</p>
 
 # The about layout prints English headings for these sections, so they are written out below instead.
 selected_papers: false
@@ -47,3 +46,5 @@ Zuvor habe ich meinen B.S.E. in Computer Engineering (_Summa Cum Laude_) an der 
   <div class="contact-icons">{% social_links %}</div>
   <div class="contact-note">Am besten erreichen Sie mich per E-Mail.</div>
 </div>
+
+{% include visitor_map.liquid %}
