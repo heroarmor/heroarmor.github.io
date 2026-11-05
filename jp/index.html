@@ -1,0 +1,31 @@
+<!DOCTYPE html> <html lang="ja"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="robots" content="noindex, nofollow"> <title>Kangqi Zhang</title> <style>
+      html, body { margin: 0; height: 100%; background: #fff; }
+      dialog {
+        border: none;
+        border-radius: 10px;
+        padding: 28px 32px;
+        max-width: 360px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        text-align: center;
+      }
+      dialog::backdrop { background: rgba(0, 0, 0, 0.35); }
+      dialog p { margin: 0 0 20px; font-size: 16px; line-height: 1.5; color: #222; }
+      dialog a { color: #0076df; }
+      dialog button {
+        border: none;
+        border-radius: 6px;
+        padding: 8px 22px;
+        font-size: 14px;
+        background: #0076df;
+        color: #fff;
+        cursor: pointer;
+      }
+    </style> </head> <body> <dialog id="token-dialog"> <p>Please contact me to get the token to access.</p> <p><a href="mailto:zhkangqi@purdue.edu">zhkangqi@purdue.edu</a></p> <form method="dialog"><button>OK</button></form> </dialog> <script>
+      var dialog = document.getElementById("token-dialog");
+      if (typeof dialog.showModal === "function") {
+        dialog.showModal();
+      } else {
+        alert("Please contact me to get the token to access.");
+      }
+    </script> </body> </html>
