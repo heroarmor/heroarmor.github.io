@@ -1,0 +1,105 @@
+---
+layout: default
+---
+{% comment %}
+  Local override of al_folio_core 1.0.15 _layouts/about.liquid. Changes from the gem version:
+  - the profile photo's alt text is the person's name (profile.image_alt, else first + last name)
+    instead of the image file name;
+  - on phones (< 576px) the photo is shown at 60% width, centered, so the bio is visible on the first screen.
+{% endcomment %}
+<style>
+  @media (max-width: 575.98px) {
+    .post .profile.float-right,
+    .post .profile.float-left {
+      float: none !important;
+      width: 60%;
+      margin: 0 auto 1rem;
+    }
+    .post .profile .more-info {
+      text-align: center;
+    }
+  }
+</style>
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 60vw"{% endcapture %}
+          {% capture default_profile_alt %}{{ site.first_name }} {{ site.last_name }}{% endcapture %}
+          {% assign profile_image_alt = page.profile.image_alt | default: default_profile_alt %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_image_alt
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% social_links %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center_margin.liquid %}
+      {% else %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
+    {% endif %}
+  </article>
+</div>
